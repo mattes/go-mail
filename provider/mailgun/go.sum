@@ -36,8 +36,8 @@ github.com/mailgun/mailgun-go/v3 v3.6.1/go.mod h1:E81I5Agcfi/u1szdehi6p6ttdRX/UD
 github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
 github.com/mailru/easyjson v0.7.0 h1:aizVhC/NAAcKWb+5QsU1iNOZb4Yws5UO2I+aIprQITM=
 github.com/mailru/easyjson v0.7.0/go.mod h1:KAzv3t3aY1NaHWoQz1+4F1ccyAH66Jk7yos7ldAVICs=
-github.com/mattes/go-mail v0.0.0-20191112222218-85d6672be78c h1:oyo4CalhZdaxsqU1liJeGCHsHpi5G0CjsOcwMtWI7T4=
-github.com/mattes/go-mail v0.0.0-20191112222218-85d6672be78c/go.mod h1:ZtglzoxBt2hmsdUpHdP4BWUaU78NuFjnqUb5+Cjn7o0=
+github.com/mattes/go-mail v0.0.0-20191112223926-bb49ac7490be h1:NA5OKw2eNreEiMvYEyITQEyVSIDgCzn6THBJkGe1B0s=
+github.com/mattes/go-mail v0.0.0-20191112223926-bb49ac7490be/go.mod h1:ZtglzoxBt2hmsdUpHdP4BWUaU78NuFjnqUb5+Cjn7o0=
 github.com/nkovacs/streamquote v0.0.0-20170412213628-49af9bddb229/go.mod h1:0aYXnNPJ8l7uZxf45rWW1a/uME32OF0rhiYGNQ2oF2E=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

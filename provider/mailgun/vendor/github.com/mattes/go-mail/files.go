@@ -12,7 +12,9 @@ import (
 
 // Simple is a simple default template ready to be used.
 // See https://github.com/leemunroe/responsive-html-email-template
-var Simple = FilesFromRiceBox(rice.MustFindBox("templates"))
+func SimpleTemplate() Files {
+	return FilesFromRiceBox(rice.MustFindBox("templates"))
+}
 
 type WalkFunc func(name string, body io.ReadCloser) error
 
@@ -34,7 +36,7 @@ func (r *riceBoxFiles) Open(name string) (io.ReadCloser, error) {
 }
 
 func (r *riceBoxFiles) Walk(fn WalkFunc) error {
-	return r.Box.Walk(".", func(path string, info os.FileInfo, err error) error {
+	return r.Box.Walk("", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
