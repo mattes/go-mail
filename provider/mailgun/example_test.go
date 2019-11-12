@@ -9,8 +9,7 @@ import (
 
 func TestMailgun(t *testing.T) {
 	// load files and parse templates
-	files := mail.FilesFromLocalDir("../../templates")
-	tpl, err := mail.NewTemplates(files)
+	tpl, err := mail.NewTemplates(mail.SimpleTemplate())
 	if err != nil {
 		t.Fatal(err)
 	}

@@ -3,7 +3,7 @@ package mail
 import "testing"
 
 func TestFilesFromRiceBox(t *testing.T) {
-	tpl, err := NewTemplates(Simple)
+	tpl, err := NewTemplates(SimpleTemplate())
 	if err != nil {
 		t.Fatal(err)
 	}
