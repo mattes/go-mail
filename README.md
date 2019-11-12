@@ -77,3 +77,4 @@ There is a couple of tested email templates available, please have a look at:
 * https://github.com/leemunroe/responsive-html-email-template
 * https://github.com/leemunroe/amp-email-templates
 
+
