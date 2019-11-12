@@ -2,7 +2,7 @@ package mail
 
 import (
 	"bytes"
-	"html/template"
+	htmlTemplate "html/template"
 	"io"
 	"os"
 	"path/filepath"
@@ -23,7 +23,7 @@ const (
 	ExampleFileSuffix = "example" // i.e. file.example.yaml
 )
 
-var defaultFuncMap = template.FuncMap{
+var defaultFuncMap = map[string]interface{}{
 	"markdown": parseMarkdown,
 }
 
@@ -79,7 +79,7 @@ func SetDelims(left, right string) RenderOption {
 }
 
 // Funcs adds the elements of the argument map to the template's function map.
-func AddFuncs(funcMap template.FuncMap) RenderOption {
+func AddFuncs(funcMap map[string]interface{}) RenderOption {
 	return func(t *Templates) {
 		for k, v := range funcMap {
 			t.engine.funcMap[k] = v
@@ -168,7 +168,7 @@ func inlineCSS(html []byte) ([]byte, error) {
 }
 
 // parseMarkdown is available as template command, it parses markdown to html.
-func parseMarkdown(markdown string) (html template.HTML, err error) {
+func parseMarkdown(markdown string) (html htmlTemplate.HTML, err error) {
 	var buf bytes.Buffer
 
 	md := goldmark.New(
@@ -180,5 +180,5 @@ func parseMarkdown(markdown string) (html template.HTML, err error) {
 	if err != nil {
 		return "", err
 	}
-	return template.HTML(buf.String()), nil
+	return htmlTemplate.HTML(buf.String()), nil
 }
