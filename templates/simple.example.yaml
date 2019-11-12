@@ -1,0 +1,22 @@
+Subject: ""
+Preheader: ""
+
+Name: "Mattes"
+
+Body: |
+  # Hi Mattes!
+  Markdown works, too. __Pretty cool__.
+
+  I can even create some lists:
+    * One
+    * Two
+    * Three
+
+Footer: |
+  The footer!
+
+CallToAction: "Learn how to get free beer today"
+CallToActionURL: "https://www.youtube.com/results?search_query=how+to+get+free+beer"
+
+OrgAddress: "1460 Mission Street, San Francisco, CA 94105"
+

@@ -1,0 +1,8 @@
+{{.Body}}
+
+{{.CallToAction}}
+{{.CallToActionURL}}
+
+{{.Footer}}
+
+{{.OrgAddress}}
