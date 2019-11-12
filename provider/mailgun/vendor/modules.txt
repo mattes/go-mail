@@ -26,7 +26,7 @@ github.com/mailru/easyjson
 github.com/mailru/easyjson/buffer
 github.com/mailru/easyjson/jlexer
 github.com/mailru/easyjson/jwriter
-# github.com/mattes/go-mail v0.0.0-20191112221331-0e862292e9f7
+# github.com/mattes/go-mail v0.0.0-20191112222218-85d6672be78c
 github.com/mattes/go-mail
 # github.com/pkg/errors v0.8.1
 github.com/pkg/errors
