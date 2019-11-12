@@ -1,4 +1,4 @@
-# go-mail
+# go-mail [![GoDoc](https://godoc.org/github.com/mattes/go-mail?status.svg)](https://godoc.org/github.com/mattes/go-mail)
 
 * Load template files from disk or embedded store.
 * Preview rendered template files with example data in browser with [go-mail-preview tool](./go-mail-preview).
